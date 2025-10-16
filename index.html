@@ -7,12 +7,39 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
+    <!-- Hero Section: Two columns, left for text, right for image -->
     <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
+        <!-- Left side: Logo and text -->
+        <div class="hero-left">
+            <!-- Logo and brand name -->
+            <div class="logo-row">
+                <!-- Use the provided logo image instead of emoji -->
+                <img src="img/charity_water_logo.png" alt="Charity Water Logo" class="logo-img">
+            </div>
+            <!-- Main headline with highlighted words -->
+            <h1>
+                One <span class="highlight-yellow">Small</span> Gift<br>
+                A <span class="highlight-yellow">LIFETIME</span> of <span class="highlight-yellow">Change</span>
+            </h1>
+            <!-- Supporting message -->
+            <p class="support-text">
+                Your donation doesn’t just fund clean water — it fuels health, education, and opportunity for generations. See the ripple your impact creates around the world
+            </p>
+            <!-- Donate button -->
+            <a href="#" class="donate-btn">DONATE TODAY</a>
+        </div>
+        <!-- Right side: Impact image -->
+        <!-- Example A: Nudge the image up by 30px using a CSS variable -->
+        <div class="hero-right" style="--hero-image-shift: -30px;">
+            <!-- Placeholder image, replace with your own -->
+            <img src="img/0.png" alt="Child with clean water" class="hero-image">
+        </div>
+
+        <!-- Example B (alternate): Use a utility class to align image to the top
+        <div class="hero-right align-top">
+            <img src="..." class="hero-image">
+        </div>
+        -->
     </section>
 
     <!-- Story Section: This tells the story of the nonprofit -->
@@ -29,7 +56,7 @@
         <!-- Container for image and text -->
         <div class="impact-content">
             <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
+            <img src="img/Screenshot 2025-10-16 075507.png" alt="Amina smiling with clean water" class="impact-image">
             <!-- Impact story text -->
             <p>
                 Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
